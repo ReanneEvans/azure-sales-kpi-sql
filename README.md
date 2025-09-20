@@ -41,6 +41,18 @@ Example (for 2023-12-29):
 
 ---
 
+## 🛠️ Placeholders in setup.sql
+The script uses placeholders so no secrets are published in this repo.  
+Replace them with your own values before running:
+
+- `<DB_NAME>` → Your Azure SQL Database name  
+- `<MASTER_KEY_PASSWORD>` → A strong password for the database master key  
+- `<BLOB_URL>` → The URL of your Azure Blob Storage container  
+- `<SAS_TOKEN>` → A valid Shared Access Signature token (short-lived for security)  
+
+⚠️ **Important:** Never commit your real passwords, tokens, or keys to GitHub.  
+In production, store them in **Azure Key Vault** instead of inline SQL.  
+
 ## 🔐 Security Notes
 - No secrets are stored in this repo.  
 - Replace `<SAS_TOKEN>` and `<BLOB_URL>` placeholders with your own secure values.  
