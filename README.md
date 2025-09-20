@@ -4,7 +4,7 @@
 This repository contains the **SQL code** for the *Automated Daily Sales KPI Report* project.  
 The database schema, views, config table, and stored procedure form the backend for an Azure-based automation that delivers a styled KPI email every morning.
 
-👉 The automation/orchestration (Logic Apps) is described in my [portfolio case study](your-notion-link-here).  
+👉 The automation/orchestration (Logic Apps) is described in my [portfolio case study](https://www.notion.so/Workfolio-2330ebe7245e80f8bdd8e4d33bcfb9ad?source=copy_link).  
 This repo focuses only on the **SQL layer**.
 
 ---
